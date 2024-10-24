@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import slides from "../data/index.js";
+import slides from "../data/index";
 import { FaChevronLeft, FaChevronRight, FaDotCircle } from "react-icons/fa";
 import CountdownTimer from "./CountDown.jsx";
 import { motion } from "framer-motion";
@@ -23,13 +23,10 @@ const Home = () => {
   return (
     <>
       <div id="home" className="min-h-screen relative group">
-        <motion.div
-          initial={{ opacity: 0, scale: "60%" }}
-          whileInView={{ opacity: 1, scale: "100%" }}
-          transition={{ duration: 0.8 }}
+        <div
           style={{ backgroundImage: `url(${slides[current].image})` }}
           className="w-[100%] h-[100vh] bg-center bg-cover duration-700"
-        ></motion.div>
+        ></div>
         <div
           onClick={prevSlide}
           className="hidden group-hover:block absolute top-[50%] -translate-x-0 translate-y-[-50%] left-5 text-2xl rounded-full p-2 bg-black/20 text-white cursor-pointer"
@@ -46,7 +43,7 @@ const Home = () => {
           initial={{ opacity: 0, x: "-100%" }}
           whileInView={{ opacity: 1, x: 0 }}
           transition={{ duration: 1.5 }}
-          className="absolute bottom-16 bg-white/80 sm:bg-transparent left-0
+          className="absolute bottom-16 left-0
           max-w-md rounded-full w-full"
         >
           <div className="flex flex-col items-center justify-center p-2">

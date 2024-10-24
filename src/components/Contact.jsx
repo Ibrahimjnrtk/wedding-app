@@ -39,8 +39,7 @@ const Contact = () => {
       </div>
       <p className="text-white text-xs">info@gmail.com | +234705839203</p>
       <p className="text-[#da882b] text-xs">
-        (c) Domain Name. <span className="text-white">Designed by</span> Free by
-        Website Codes
+        <span className="text-white">Designed by</span> Ibrahimjnrtk
       </p>
     </div>
   );
