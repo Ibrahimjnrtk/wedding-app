@@ -9,7 +9,7 @@ const Header = () => {
   return (
     <div className="fixed z-50 bg-[#110e40] w-full p-3">
       <div className="flex justify-between items-center ">
-        <h1 className="font-bold text-yellow-600 font-Parisienne xs:pl-10 text-nowrap text-4xl xs:text-2xl ">
+        <h1 className="font-bold text-yellow-600 font-Parisienne xs:pl-10 text-nowrap text-2xl">
           Jack & Rose
         </h1>
         <div className="hidden sm:flex items-center justify-center w-full h-full gap-6">
@@ -33,7 +33,7 @@ const Header = () => {
         </div>
         <button
           onClick={() => setPhone(!phone)}
-          className="font-bold sm:hidden text-3xl xs:text-2xl text-white "
+          className="sm:hidden text-2xl xs:text-2xl px-1 text-white "
         >
           {phone ? <FaTimes /> : <FaBars />}
         </button>

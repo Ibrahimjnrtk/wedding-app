@@ -7,7 +7,9 @@ const About = () => {
       id="about"
       className="w-[100%] mt-10 xs:w-[70%] sm:w-[65%] lg:w-[50%] mx-auto flex flex-col justify-end items-center "
     >
-      <h2 className="text-sm text-[#da882b] font-bold pt-6">ABOUT</h2>
+      <h2 className="text-lg xs:text-sm text-[#da882b] font-bold pt-6">
+        ABOUT
+      </h2>
       <h1 className="text-5xl pb-6 pt-2 font-birthstone">Groom & Bride</h1>
       <div className="grid sm:grid-cols-2 gap-2">
         {about.map(({ id, tittle, name, text, image }) => {

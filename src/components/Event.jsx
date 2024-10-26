@@ -8,7 +8,9 @@ const Event = () => {
       id="event"
       className="mt-10 w-[100%] xs:w-[70%] sm:w-[65%] mx-auto flex flex-col justify-end items-center "
     >
-      <h2 className="text-sm text-[#da882b] font-bold pt-6">EVENT</h2>
+      <h2 className="text-lg xs:text-sm text-[#da882b] font-bold pt-6">
+        EVENT
+      </h2>
       <h1 className="text-5xl pb-6 pt-2 font-birthstone">Our Wedding Event</h1>
       <h3 className="text-center">
         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur

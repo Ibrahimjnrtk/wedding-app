@@ -7,7 +7,9 @@ const Story = () => {
       id="story"
       className="mt-10 w-[100%] xs:w-[70%] sm:w-[65%] lg:w-[50%] mx-auto flex flex-col justify-end items-center "
     >
-      <h2 className="text-sm text-[#da882b] font-bold pt-6">STORY</h2>
+      <h2 className="text-lg xs:text-sm text-[#da882b] font-bold pt-6">
+        STORY
+      </h2>
       <h1 className="text-5xl pb-6 pt-2 font-birthstone">Our Love Story</h1>
       <div className="grid sm:grid-cols-2 gap-1 sm:gap-2 ">
         {story.map(({ id, tittle, date, text, image }) => {
